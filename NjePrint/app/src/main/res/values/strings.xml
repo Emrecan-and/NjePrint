@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NjePrint</string>
+    <string name="update_menu">Árak frissítése</string>
+    <string name="type">Szolgáltatások</string>
+    -> if type of print means the actual service, let me know if not
+    <string name="price">Ár</string>
+    <string name="güncelle">Frissítés</string>
+    <string-array name="names">
+        <item>Nyomtatás A4 Fekete-fehér</item>
+        <item>Nyomtatás A4 színes</item>
+        <item>Nyomtatás A3 Fekete-fehér</item>
+        <item>Nyomtatás A3 színes</item>
+
+        <item>Másolás A4 Fekete-fehér</item>
+        <item>Másolás A4 színes</item>
+        <item>Másolás A3 Fekete-fehér</item>
+        <item>Másolás A3 színes</item>
+
+        <item>Szkennelés A4</item>
+        <item>Szkennelés A3</item>
+    </string-array>
+    <string name="total">VÉGÖSSZEG:</string>
+    <string name="clear">TÖRLÉS</string>
+    <string name="language">Nyelv választása</string>
+</resources>

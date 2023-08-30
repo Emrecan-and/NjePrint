@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        >
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:onClick="clear"
+            android:text="@string/clear"
+            android:textColor="@color/white"
+            android:textSize="24sp"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#C17300"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:background="#C17300"
+        android:textColor="@color/white"
+        />
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/sumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:background="#C17300"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/ftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ft"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:background="#C17300"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>
